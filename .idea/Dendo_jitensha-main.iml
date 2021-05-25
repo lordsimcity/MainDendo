@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Panier/php/class/BasketHandling" isTestSource="false" packagePrefix="Basket\BasketClass\BasketHandling\" />
+      <sourceFolder url="file://$MODULE_DIR$/Panier/php/class/Database" isTestSource="false" packagePrefix="Basket\BasketClass\Database\" />
+      <sourceFolder url="file://$MODULE_DIR$/Panier/php" isTestSource="false" packagePrefix="Basket\" />
+      <excludeFolder url="file://$MODULE_DIR$/Panier/vendor/composer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

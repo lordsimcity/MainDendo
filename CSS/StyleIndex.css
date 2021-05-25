@@ -1,0 +1,120 @@
+﻿
+/*Changements sur le carouselle principal*/
+
+.carousel-item {
+    background-color: gray;
+    text-align: center;
+}
+
+.carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233486eb' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    height: 30px;
+    width: 30px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233486eb' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+ol.carousel-indicators li.active {
+    color: lightskyblue !important;
+}
+
+/*Changements sur les filtres*/
+
+.slidecontainer{
+    margin-top:10px;
+}
+
+/* Style des boutons du filtre */
+.btn {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 15px 16px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    box-shadow: 2px 2px 1px gray;
+    color:white;
+}
+
+.btn:hover {
+    background-color: lightblue;
+}
+
+
+.col {
+    padding:0px;
+}
+
+.row {
+    margin:0px;
+}
+
+
+#filter_main {
+    float: left;
+    margin-top: 20px;
+
+}
+
+
+#product img{
+    margin:10px;
+}
+
+#headerProduits {
+    border-style: none none solid;
+    width: 100%;
+}
+
+#headerProduits h2{
+    margin-left:10px;
+}
+
+.btn-cart {
+    float: right;
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+/*changements sur le slider du filtre*/
+
+/*Partie responsive*/
+
+/*CHange le layout, passe à 2 colonnes en dessous de 1000 pixels et à 1 colonne en dessous de 800 pixels*/
+@media screen and (max-width: 992px) {
+    .btn {
+        display: inline-block;
+        margin-left:5px;
+    }
+
+    .slidecontainer {
+        margin-top: 25px;
+    }
+
+    .content img{
+        padding-left:10px;
+    }
+}

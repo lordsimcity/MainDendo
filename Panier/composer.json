@@ -1,0 +1,18 @@
+{
+    "name": "dendo_jitensha/systeme_panier",
+    "description": "Module système de panier virtuel du projet Dendo jitensha.",
+    "authors": [
+        {
+            "name": "Damien",
+            "email": "lasson.damienpro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Basket\\": "./php/",
+            "Basket\\BasketClass\\BasketHandling\\": "./php/class/BasketHandling/",
+            "Basket\\BasketClass\\Database\\": "./php/class/Database/"
+        }
+    },
+    "require": {}
+}

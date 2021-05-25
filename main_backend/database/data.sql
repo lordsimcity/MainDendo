@@ -1,0 +1,15 @@
+/* Types de produits */
+INSERT INTO Type_of_product(type_product) VALUES("Bike");
+INSERT INTO Type_of_product(type_product) VALUES("Battery");
+INSERT INTO Type_of_product(type_product) VALUES("Saddle");
+INSERT INTO Type_of_product(type_product) VALUES("Clothing");
+
+/* Produits vendus */
+INSERT INTO Products(id_type_product,name_product,description_product,autonomy,motor,battery,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(1,"Rocket","Sûrement le vélo le plus rapide de la galaxie.","3h20min","Velox_Motor","batteryOnFire-3cz",1399.99,"Rocket.png",NOW(),NOW(),"Megatron",22);
+INSERT INTO Products(id_type_product,name_product,description_product,autonomy,motor,battery,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(1,"Relaxed","Un vélo sans prise de tête pour ceux qui ne sont jamais pressé.","6h00min","Velox_Motor","batteryCalm-c3po",799.99,"Relaxed.png",NOW(),NOW(),"Jarjar",51);
+INSERT INTO Products(id_type_product,name_product,description_product,autonomy,motor,battery,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(1,"Splash","Votre compagnons idéal lors de vos déplacements ou pendant vos vacances.","4h12min","Velox_Motor","batteryTrql-7fold",1099.99,"Splash.png",NOW(),NOW(),"Hiker",34);
+INSERT INTO Products(id_type_product,name_product,description_product,autonomy,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(2,"batteryOnFire-3cz","Batterie pour vélo électrique de facture allemande. Cette batterie est compatible avec le modèle Rocket.","3h20min",299.99,"batteryOnFire-3cz.png",NOW(),NOW(),"A-Scape",10);
+INSERT INTO Products(id_type_product,name_product,description_product,autonomy,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(2,"batteryCalm-c3po","Batterie pour vélo électrique de facture allemande. Cette batterie est compatible avec le modèle Relaxed.","6h00min",159.99,"batteryCalm-c3po.png",NOW(),NOW(),"A-Scape",10);
+INSERT INTO Products(id_type_product,name_product,description_product,autonomy,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(2,"batteryTrql-7fold","Batterie pour vélo électrique de facture allemande. Cette batterie est compatible avec le modèle Splash.","4h12min",199.99,"batteryTrql-7fold.png",NOW(),NOW(),"A-Scape",10);
+INSERT INTO Products(id_type_product,name_product,description_product,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(3,"Throne","Une selle qui vous garantie des conditions de confort exceptionnelles lors de l'utilisation de votre vélo électrique.",69.99,"Throne.png",NOW(),NOW(),"Sofa_Co",2);
+INSERT INTO Products(id_type_product,name_product,description_product,price_product,picture_product,date_created_product,date_modified_product,brand,stock) VALUES(4,"Glovost","Ces gants vous seront indispensables en hiver. ",29.99,"Glovost.png",NOW(),NOW(),"Muffle_Star",7);

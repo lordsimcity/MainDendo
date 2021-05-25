@@ -1,0 +1,24 @@
+body {
+
+    margin: 0;
+    padding-top: 4em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.history-list,.order-details {
+
+    width: 60%;
+    max-height: 60vh;
+
+    margin: auto;
+    padding: 1em;
+
+    overflow: scroll;
+
+}
+

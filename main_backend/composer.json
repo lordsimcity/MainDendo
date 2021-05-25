@@ -1,0 +1,28 @@
+{
+    "name": "dendo_jitensha/registrattion_module",
+    "description": "Module permettant l'inscription d'un utilisateur.",
+    "authors": [
+        {
+            "name": "Damien",
+            "email": "lasson.damienpro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Registration\\": "./class/",
+            "Registration\\Informations\\": "./class/Informations/",
+            "Registration\\DatabaseHandling\\": "./class/DatabaseHandling/",
+            "Connection\\ConnectionChecks\\": "./class/Informations/",
+            "Connection\\ConnectionVerif\\DatabaseHandling\\": "./class/DatabaseHandling/Connection/",
+            "DatabaseInformations\\": "./database/dbInformations/",
+            "DendoJitenshaBackend\\": "./class/",
+            "DendoJitenshaBackend\\DbManager\\": "./class/DbManager/",
+            "DendoJitenshaBackend\\User\\": "./class/User/",
+            "DendoJitenshaBackend\\DataValidator\\": "./class/DataValidator",
+            "EmailsSending\\": "./emailsSending/"
+        }
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    }
+}
